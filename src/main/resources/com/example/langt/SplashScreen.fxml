@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXProgressSpinner?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="300.0" style="-fx-background-color: #1E2021;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.langt.viewmodel.SplashScreenController">
+   <children>
+      <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/SplashScreenAnimation.gif" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="-40.0" />
+         </VBox.margin>
+      </ImageView>
+      <Label fx:id="countdown" alignment="CENTER" contentDisplay="CENTER" text="Connecting..." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <MFXProgressSpinner>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin></MFXProgressSpinner>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>

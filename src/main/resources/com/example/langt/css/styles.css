@@ -1,0 +1,73 @@
+.root {
+    -fx-background-color:  #181A1B;
+}
+
+.parts {
+    -fx-background-color:  #1E2021;
+    -fx-background-radius: 14;
+    -fx-border-color: #383D40;
+    -fx-border-width: 1;
+}
+
+.btnTranslate {
+    -fx-background-color:  #0C8CE9;
+    -fx-text-fill: #FFF;
+
+}
+
+.btnTransparent {
+    -fx-background-color:  transparent;
+}
+
+.tooltip {
+    -fx-background: rgb(56, 61, 63);
+    -fx-text-fill: white;
+    -fx-background-color: rgba(56, 61, 63,0.9);
+    -fx-background-radius: 6px;
+    -fx-padding: 10 12 10 12; /* 10px */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 10, 0.0 , 0 , 3 );
+}
+
+
+.text-area {
+    -fx-background-color:  #1E2021;
+    -fx-text-fill: #FFF;
+    -fx-border-color: #383D40;
+
+}
+
+.text-area .content {
+    -fx-background-color:  #1E2021;
+    -fx-text-fill: #FFF;
+
+
+}
+
+
+/* ScrollBar'ın genel stilleri */
+.scroll-bar {
+    -fx-background-color: #1E2021;
+}
+
+/* ScrollBar'ın ok düğmelerinin stilleri */
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color:  #383D40;
+}
+
+/* ScrollBar'ın kaydırma kolu (thumb) stil */
+.scroll-bar .thumb {
+    -fx-background-color: rgb(56, 61, 63);
+}
+
+/* ScrollBar'ın track (kaydırma yolu) stil */
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+/* ScrollBar'ın kaydırma kolu (thumb) için durumlar */
+.scroll-bar .thumb:hover {
+    -fx-background-color: rgb(74, 80, 83);
+}
+.scroll-bar .thumb:pressed {
+    -fx-background-color:rgb(74, 80, 83);
+}

@@ -1,0 +1,18 @@
+
+
+.jfx-snackbar-content {
+    -fx-pref-width: 900;
+    -fx-background-color: rgba(60, 60, 60, 0.9);
+    -fx-background-radius: 15 15 0 0;
+
+    -fx-border-radius: 15 15 0 0;
+
+    -fx-padding: 2 4 2 4;
+    -fx-font-size: 16;
+}
+.jfx-snackbar-toast {
+    -fx-text-fill: WHITE;
+}
+.jfx-snackbar-action {
+    -fx-text-fill: #0C8CE9;
+}
